@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 575px;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 50px;
+  max-width: 100%;
+  margin: unset;
+  padding: 16px;
+  z-index: 999;
+}
+
+body {
+  background: #ccc;
+}
+
+footer {
+  padding: 48px 16px;
+  text-align: center;
+  color: #474747;
+  background: #f9f9f9;
+}
+
+footer > .thank-you {
+  font-family: "Bellota Text", cursive;
+  font-size: 2.6rem;
+  color: #474747;
+}
+
+.main {
+  background: white;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main > p {
+  font-size: 1.4rem;
+  text-align: end;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.main > .main_image > img {
+  width: 100%;
+}
+
+.main_image {
+  position: relative;
+  height: 1200px;
+}
+
+.main_image > img:nth-child(2) {
+  z-index: 10;
+  position: absolute;
+  top: 944px;
+  left: 10px;
+}
+
+.main_image > p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  font-style: italic;
+  z-index: 10;
+  position: absolute;
+  top: 1080px;
+  left: 0px;
+}
+
+.guest_container {
+  margin-bottom: 10px;
+}
+
+.guest_container .guest_title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.address {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

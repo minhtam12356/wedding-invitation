@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  max-width: 575px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+body {
+  background: #ccc;
+}
+
+footer {
+  padding: 48px 16px;
+  text-align: center;
+  color: #474747;
+  background: #f9f9f9;
+}
+
+footer > .thank-you {
+  font-family: "Bellota Text", cursive;
+  font-size: 2.6rem;
+  color: #474747;
+}
+
+form > .form-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
+input,select {
+  height: 30px;
+}
+
+.admin-form {
+  background: white;
+  padding: 16px;
+}
+
+.admin-form > .title {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.button {
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+  padding: 1px 20px;
+  background: var(--primary);
+  color: white;
+  text-wrap: nowrap;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.button:hover {
+  background: var(--hover);
+  color: white;
+}
+
+.guest_input,.wedding_date {
+  margin-left: 0;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.guest_link {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guest_link .link {
+  margin: 0;
+}
+
+.guest_link .copy {
+  display: inline;
+  align-self: baseline;
+}
