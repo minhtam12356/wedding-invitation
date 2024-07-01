@@ -4,7 +4,6 @@ const queryDate = urlParams.get('date') ?? 15;
 
 const guestNamePosition = document.getElementsByClassName('guest_name')[0];
 const restaurantAddressPosition = document.getElementsByClassName('address')[0];
-const weddingDatePosition = document.getElementsByClassName('wedding_date')[0];
 const guestName = queryName ? window.atob(queryName) : "..."
 
 guestNamePosition.innerHTML = guestName;
@@ -27,4 +26,3 @@ iframe.setAttribute("style", "border:0;");
 iframe.setAttribute("src", restaurantAddress);
 
 restaurantAddressPosition.appendChild(iframe);
-weddingDatePosition.textContent = queryDate;
