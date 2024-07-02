@@ -4,7 +4,7 @@ const queryDate = urlParams.get('date') ?? 15;
 
 const guestNamePosition = document.getElementsByClassName('guest_name')[0];
 const restaurantAddressPosition = document.getElementsByClassName('address')[0];
-const guestName = queryName ? window.atob(queryName) : "..."
+const guestName = queryName ? window.atob(queryName) : ""
 
 guestNamePosition.innerHTML = guestName;
 
