@@ -5,7 +5,7 @@ const guestLink = document.getElementsByClassName("link")[0];
 const guestLinkCopy = document.getElementsByClassName("copy")[0];
 
 buttonCreate.addEventListener("click", function () {
-  const guestName = window.btoa(guestNamePosition.value);
+  const guestName = Base64.encode(guestNamePosition.value);
   const newGuestLink = `http://${window.location.host}?name=${guestName}&date=${weddingDate.value}`;
   
   if (guestLink.textContent.length) {

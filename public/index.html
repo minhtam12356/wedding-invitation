@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
-  <title>Wedding Invitation</title>
-</head>
-<body>
-  <div class="main">
-    <img style="width: 100%;" src="./assets/videos/wedding-video-intro.gif" alt="wedding video introduction">
-    <div class="main_image">
-      <img src="./assets/images/wedding-1.png" alt="wedding image 1">
-      <div class="guest">
-        <div class="guest_name"></div>
-        <img src="./assets/images/wedding-2.png" alt="wedding image 2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/color.css" />
+    <title>Wedding Invitation</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.7/base64.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main_introduction" style="display: flex"></div>
+      <div class="main_image">
+        <div class="wedding-1" style="display: flex"></div>
+        <div class="wedding-2" style="display: flex; position: relative">
+          <div class="guest_name"></div>
+        </div>
+        <div class="wedding-3" style="display: flex"></div>
+        <div class="wedding-4" style="display: flex">
+          <img src="./assets/images/4.png" alt="wedding video introduction" />
+        </div>
       </div>
-      <img src="./assets/images/wedding-3.png" alt="wedding image 3">
-      <img src="./assets/images/wedding-4.png" alt="wedding image 4">
     </div>
-  </div>
 
-  <footer>
-    <div class="address"></div>
-    <div class="copywriter">Created by Hoa Bui & Tam Nguyen</div>
-  </footer>
-  <script src="./index.js"></script>
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
-    const firebaseConfig = {
-      apiKey: "AIzaSyDVR2oL209iF3UGS5GPy9YwE0NfY3FS-LQ",
-      authDomain: "wedding-invitation-2024.firebaseapp.com",
-      projectId: "wedding-invitation-2024",
-      storageBucket: "wedding-invitation-2024.appspot.com",
-      messagingSenderId: "793679716261",
-      appId: "1:793679716261:web:35844a96cfc17ab0c3124c",
-      measurementId: "G-P1VY6FGW1B"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
-</body>
+    <footer>
+      <div class="address"></div>
+      <div class="copywriter">Created by Hoa Bui & Tam Nguyen</div>
+    </footer>
+    <script src="./index.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyDVR2oL209iF3UGS5GPy9YwE0NfY3FS-LQ",
+        authDomain: "wedding-invitation-2024.firebaseapp.com",
+        projectId: "wedding-invitation-2024",
+        storageBucket: "wedding-invitation-2024.appspot.com",
+        messagingSenderId: "793679716261",
+        appId: "1:793679716261:web:35844a96cfc17ab0c3124c",
+        measurementId: "G-P1VY6FGW1B",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
 </html>

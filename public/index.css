@@ -10,7 +10,7 @@ body {
 }
 
 footer {
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: center;
   color: #474747;
   background: #f9f9f9;
@@ -24,7 +24,7 @@ footer > .thank-you {
 
 .main {
   background: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   font-size: 1.4rem;
   text-align: end;
 }
@@ -34,11 +34,12 @@ footer > .thank-you {
 }
 
 .main_image > img, .guest {
-  padding-top: 0.6rem;
+  /* padding-top: 0.6rem; */
 }
 
 .copywriter {
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
 }
 
 .guest {
@@ -47,7 +48,10 @@ footer > .thank-you {
 
 .guest_name {
   position: absolute;
-  top: 22%;
+  top: 21%;
   width: 100%;
   text-align: center;
+  color: var(--primary-text);
+  font-size: min(3.4vw, 1.8rem);
+  font-family: serif;
 }

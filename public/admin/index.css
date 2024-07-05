@@ -80,6 +80,9 @@ input,select {
 
 .guest_link .link {
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
 }
 
 .guest_link .copy {
