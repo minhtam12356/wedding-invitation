@@ -16,12 +16,6 @@ footer {
   background: #f9f9f9;
 }
 
-footer > .thank-you {
-  font-family: "Bellota Text", cursive;
-  font-size: 2.6rem;
-  color: #474747;
-}
-
 form > .form-group {
   display: flex;
   justify-content: flex-start;
