@@ -10,11 +10,14 @@ body {
 }
 
 footer {
-  position: relative;
-  top: -5px;
   text-align: center;
   color: #474747;
   background: #f9f9f9;
+}
+
+.address {
+  position: relative;
+  top: -5px;
 }
 
 .background {
@@ -47,8 +50,9 @@ footer {
   width: 100%;
   text-align: center;
   color: var(--primary-text);
-  font-size: min(3.4vw, 1.8rem);
+  font-size: min(4vw, 2rem);
   font-family: serif;
+  font-weight: bold;
 }
 
 .qr_download {
@@ -75,6 +79,6 @@ footer {
 }
 
 .copywriter {
-  padding-top: 0.5rem;
-  padding-bottom: 0.7rem;
+  padding-top: 0.4rem;
+  padding-bottom: 1rem;
 }
